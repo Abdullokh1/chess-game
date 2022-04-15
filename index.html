@@ -7,11 +7,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
+
+  <div class="d-flex justify-content-between">
+    <div>
+     <ul class="m-0 p-0 chess-list list-unstyled"> 
+
+       <li class="chess-item">
+          <button class="chess-btn"><img src="img/king.svg" alt="king" width="70" height="65"></button>
+       </li>
+
+       <li class="chess-item">
+        <button class="chess-btn"><img src="img/queen.svg" alt="queen" width="70" height="65"></button>
+      </li>
+
+      <li class="chess-item">
+        <button class="chess-btn" id="castleBtn"><img src="img/castle.svg" alt="castle" width="70" height="65"></button>
+      </li>
+      <li class="chess-item">
+        <button class="chess-btn"><img src="img/horse.svg" alt="horse" width="70" height="65"></button>
+      </li>
+
+      <li class="chess-item">
+        <button class="chess-btn"><img src="img/elephant.svg" alt="elephant" width="70" height="65"></button>
+      </li>
+
+      <li class="chess-item">
+        <button class="chess-btn"><img src="img/pawn.svg" alt="pawn" width="70" height="65"></button>
+      </li>
+
+     </ul>
+    </div>
+
+    <div class="table-wrap">
+
+      <ul class="chess-table p-0 m-0 mt-5  list-unstyled d-flex flex-wrap">
+
+      </ul>
+
+    </div>
+
+    <div>
+
+      <button class="chess-x-info mb-3" id="animate-btn">3d</button>
+      <div class="chess-info">
+
+      </div>
+
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>

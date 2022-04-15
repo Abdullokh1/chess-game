@@ -7,9 +7,60 @@
 }
 
 body {
-  background-color: #fff;
+  background: radial-gradient(#CFB070, #ab600d) !important;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding: 20px;
+  overflow: hidden;
+}
+.chess-btn{
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.color{
+ background-color: #FEA500;
+}
+.green{
+  box-shadow: 0px 0px 31px 13px green inset;
+}
+.chess-item{
+  margin-bottom: 15px;
+}
+#animate-btn{
+  padding: 0 25px;
+  border: none;
 }
 
+.chess-table{
+  width: 650px;
+  height: 570px;
+  border-radius: 4px;
+  border: 12px solid #000;
+}
+.chess-columns{
+  width: 12.5%;
+  height: 68px;
+  cursor: pointer;
+}
+.chess-columns:hover{
+  box-shadow: 0px 0px 31px 13px #ff2929 inset;
+}
+
+.chess-x-info{
+  background-color: #fff;
+  padding: 2px 10px;
+  font-size: 25px;
+  color: #ab600d;
+}
+.active{
+  background-color: red;
+  width: 12.5%;
+  height: 80px;
+}
+.board-color{
+  background-color: #B58863;
+}
+.column-color{
+  background-color: #F0D9B5;
+}
