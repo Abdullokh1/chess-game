@@ -10,7 +10,7 @@ body {
   background: radial-gradient(#CFB070, #ab600d) !important;
   min-height: 100vh;
   padding: 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .chess-btn{
   background-color: #fff;
@@ -34,9 +34,9 @@ body {
 
 .chess-table{
   width: 650px;
-  height: 570px;
+  height: 580px;
   border-radius: 4px;
-  border: 12px solid #000;
+  border: 20px solid #333;
 }
 .chess-columns{
   width: 12.5%;
@@ -53,14 +53,17 @@ body {
   font-size: 25px;
   color: #ab600d;
 }
-.active{
-  background-color: red;
-  width: 12.5%;
-  height: 80px;
-}
+
 .board-color{
   background-color: #B58863;
 }
 .column-color{
   background-color: #F0D9B5;
+}
+.active{
+  box-shadow: 0px 0px 31px 13px #ff2929 inset !important;
+}
+
+.green{
+  box-shadow: 0px 0px 30px 13px #09ff00 inset; ;
 }
